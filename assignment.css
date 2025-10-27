@@ -10,6 +10,9 @@ body {
 
 .header {
     background-color: orange;
+    position: fixed;
+    top: 0px;
+    left: 0px;
     height: 100px;
     width: 100%;
     display: flex;
@@ -32,6 +35,9 @@ body {
 
 .nav {
     background-color: rgb(255, 196, 86);
+    position: absolute;
+    bottom: 400px;
+    right: 0px;
     width: fit-content;
     padding: 40px;
     border-bottom-left-radius: 10px;
@@ -52,6 +58,8 @@ body {
 
 .ad {
     background-color: white;
+    position: sticky;
+    top: 100px;
     color: black;
     height: 200px;
     display: flex;
